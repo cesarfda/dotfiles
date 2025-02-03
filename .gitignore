@@ -1,0 +1,13 @@
+# ~/.dotfiles/.gitignore
+# Ignore sensitive or local-specific files
+.DS_Store
+.env
+*.local
+
+# Ignore plugin directories that will be reinstalled
+nvim/plugin/
+.tmux/plugins/
+
+# Ignore Oh My Zsh cache and local plugins
+.zsh_history
+.zcompdump*
